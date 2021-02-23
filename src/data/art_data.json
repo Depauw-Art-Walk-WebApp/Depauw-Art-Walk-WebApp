@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 0,
+        "NAME": "JUNJUN",
+        "NOTES": "Outdoor",
+        "DESCRIPTION": "Description of Art0",
+        "PICTURE":  "./static/art0.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639032, -86.864559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 1,
+        "NAME": "ART1",
+        "NOTES": "Outdoor",
+        "DESCRIPTION": "Description of Art1",
+        "PICTURE": "./static/art1.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639057, -86.863143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 2,
+        "NAME": "ART2",
+        "NOTES": "Outdoor",
+        "DESCRIPTION": "Description of Art2",
+        "PICTURE":  "./static/art2.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639621, -86.865429]
+      }
+    }
+  ]
+}
