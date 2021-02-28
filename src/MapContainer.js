@@ -58,7 +58,7 @@ class MapContainer extends Component {
           <GoogleMap
             mapContainerStyle={mapStyle}
             center={DEPAUW_CENTER}
-            zoom={15}
+            zoom={16}
             options={option}
           >
             {artData.features.map((artWork) => (
