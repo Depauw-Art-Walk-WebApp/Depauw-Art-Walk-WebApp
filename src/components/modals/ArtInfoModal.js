@@ -1,5 +1,4 @@
 import { Modal } from 'react-bootstrap';
-import 'bootstrap';
 import React from 'react';
 
 class ArtInfoModal extends React.Component {
