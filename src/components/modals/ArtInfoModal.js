@@ -18,6 +18,7 @@ class ArtInfoModal extends React.Component {
             keyboard={false}
             dialogClassName='modal-90w'
             scrollable={true}
+            size='lg'
           >
             <Modal.Header closeButton>
               <Modal.Title>

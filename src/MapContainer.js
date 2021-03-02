@@ -26,6 +26,7 @@ const option = {
   streetViewControl: false,
   // rotateControl: false,
   fullscreenControl: false,
+  clickableIcons: false,
 };
 
 class MapContainer extends Component {
@@ -37,6 +38,15 @@ class MapContainer extends Component {
       modalShow: false,
       options: null,
     };
+  }
+
+  componentDidMount() {
+    if (navigator.geolocation) {
+      navigator.geolocation.watchPosition((position) => {
+        console.log('Latitude is :', position.coords.latitude);
+        console.log('Longitude is :', position.coords.longitude);
+      });
+    }
   }
 
   setSelectedArt = (art) => {
