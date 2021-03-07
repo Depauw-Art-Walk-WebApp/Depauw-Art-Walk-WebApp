@@ -12,14 +12,15 @@ const DEPAUW_BOUNDS = {
 };
 
 const DEPAUW_CENTER = { lat: 39.63930503475011, lng: -86.86344078645712 };
+const TEMP_CENTER = { lat: 37.653052, lng: 126.776982 };
 
 const mapStyle = { width: '100vw', height: '100vh' };
 
 const option = {
-  restriction: {
-    latLngBounds: DEPAUW_BOUNDS,
-    strictBounds: false,
-  },
+  // restriction: {
+  //   latLngBounds: DEPAUW_BOUNDS,
+  //   strictBounds: false,
+  // },
   // zoomControl: true,
   mapTypeControl: false,
   scaleControl: true,
@@ -37,12 +38,22 @@ class MapContainer extends Component {
       selectedArt: null,
       modalShow: false,
       options: null,
+      userPosition: {
+        latitude: null,
+        longitude: null,
+      },
     };
   }
 
   componentDidMount() {
     if (navigator.geolocation) {
       navigator.geolocation.watchPosition((position) => {
+        this.setState({
+          userPosition: {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+          },
+        });
         console.log('Latitude is :', position.coords.latitude);
         console.log('Longitude is :', position.coords.longitude);
       });
@@ -67,10 +78,22 @@ class MapContainer extends Component {
         <LoadScript googleMapsApiKey={config.GOOGLE_MAP_API_KEY}>
           <GoogleMap
             mapContainerStyle={mapStyle}
-            center={DEPAUW_CENTER}
+            center={TEMP_CENTER}
             zoom={16}
             options={option}
           >
+            <Marker
+              key={'userMarker'}
+              position={{
+                lat: this.state.userPosition.latitude,
+                lng: this.state.userPosition.longitude,
+              }}
+              // icon={{
+              //   url: ``,
+              //   scaledSize: new window.google.maps.Size(25, 25),
+              // }}
+            />
+
             {artData.features.map((artWork) => (
               <Marker
                 key={artWork.properties.ART_ID}
