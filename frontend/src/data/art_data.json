@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 0,
+        "NAME": "The Starry Night",
+        "NOTES": "Outdoor",
+        "DESCRIPTION": "The Starry Night is an oil on canvas painting by Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.[1][2][3] It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Widely regarded as Van Gogh's magnum opus,[4][5] The Starry Night is one of the most recognized paintings in Western art.[6][7]",
+        "PICTURE":  "/image/art0.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639032, -86.864559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 1,
+        "NAME": "The Basket of Apples",
+        "NOTES": "Outdoor",
+        "DESCRIPTION": "The Basket of Apples (French: Le panier de pommes) is a still life oil painting by French artist Paul Cézanne, which he created c. 1893. The painting is particularly remarkable for its creative composition, which rejected realistic representation in favour of distorting objects to create multiple perspectives. This approach eventually influenced other art movements, including Fauvism and Cubism. It belongs to the Helen Birch Bartlett Memorial Collection of the Art Institute of Chicago.",
+        "PICTURE": "/image/art1.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639057, -86.863143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 2,
+        "NAME": "The Card Players",
+        "NOTES": "Outdoor",
+        "DESCRIPTION": "The Card Players is a series of oil paintings by the French Post-Impressionist artist Paul Cézanne. Painted during Cézanne's final period in the early 1890s, there are five paintings in the series. The versions vary in size, the number of players, and the setting in which the game takes place. Cézanne also completed numerous drawings and studies in preparation for The Card Players series.\n\nOne version of The Card Players was sold in 2011 to the Royal Family of Qatar for a price estimated at $250 million ($284.1 million today) later thought to be sold to Blake Davis son of billionaire Mike Davis for $300 million signifying a new mark for highest ever price for a painting, not surpassed until November 2017.[1]The series is considered by critics to be a cornerstone of Cézanne's art during the early-to-mid 1890s period, as well as a \"prelude\" to his final years, when he painted some of his most acclaimed work.[2]\n\nEach painting depicts Provençal peasants immersed in their pipes and playing cards. The subjects, all male, are displayed as studious within their card playing, eyes cast downward, intent on the game at hand. Cézanne adapted a motif from 17th-century Dutch and French genre painting which often depicted card games with rowdy, drunken gamblers in taverns, replacing them instead with stone-faced tradesmen in a more simplified setting.[2][3] Whereas previous paintings of the genre had illustrated heightened moments of drama,[4] Cézanne's portraits have been noted for their lack of drama, narrative, and conventional characterization.[5] Other than an unused wine bottle in the two-player versions, there is an absence of drink and money, which were prominent fixtures of the 17th-century genre. A painting by one of the Le Nain brothers, hung in an Aix-en-Provence museum near the artist's home, depicts card players and is widely cited as an inspiration for the works by Cézanne.[6][7]\n\nThe models for the paintings were local farmhands, some of whom worked on the Cézanne family estate, the Jas de Bouffan.[6] Each scene is depicted as one of quiet, still concentration; the men look down at their cards rather than at each other, with the cards being perhaps their sole means of communication outside of work.[8] One critic described the scenes as \"human still life\",[2] while another speculated that the men's intense focus on their game mirrors that of the painter's absorption in his art.[9]",
+        "PICTURE":  "/image/art2.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639621, -86.865429]
+      }
+    }
+  ]
+}
