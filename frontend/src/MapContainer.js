@@ -21,11 +21,11 @@ const option = {
   //   latLngBounds: DEPAUW_BOUNDS,
   //   strictBounds: false,
   // },
-  // zoomControl: true,
+
   mapTypeControl: false,
   scaleControl: true,
   streetViewControl: false,
-  // rotateControl: false,
+
   fullscreenControl: false,
   clickableIcons: false,
 };
@@ -88,10 +88,10 @@ class MapContainer extends Component {
                 lat: this.state.userPosition.latitude,
                 lng: this.state.userPosition.longitude,
               }}
-              // icon={{
-              //   url: ``,
-              //   scaledSize: new window.google.maps.Size(25, 25),
-              // }}
+              icon={{
+                url: '/image/user.png',
+                scaledSize: new window.google.maps.Size(40, 40),
+              }}
             />
 
             {artData.features.map((artWork) => (
@@ -105,10 +105,10 @@ class MapContainer extends Component {
                   this.setSelectedArt(artWork);
                   this.setModalShow(true);
                 }}
-                // icon={{
-                //   url: ``,
-                //   scaledSize: new window.google.maps.Size(25, 25),
-                // }}
+                icon={{
+                  url: '/image/marker.png',
+                  scaledSize: new window.google.maps.Size(40, 40),
+                }}
               />
             ))}
           </GoogleMap>
