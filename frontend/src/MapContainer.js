@@ -17,10 +17,10 @@ const TEMP_CENTER = { lat: 37.653052, lng: 126.776982 };
 const mapStyle = { width: '100vw', height: '100vh' };
 
 const option = {
-  // restriction: {
-  //   latLngBounds: DEPAUW_BOUNDS,
-  //   strictBounds: false,
-  // },
+  restriction: {
+    latLngBounds: DEPAUW_BOUNDS,
+    strictBounds: false,
+  },
 
   mapTypeControl: false,
   scaleControl: true,
@@ -78,7 +78,7 @@ class MapContainer extends Component {
         <LoadScript googleMapsApiKey={config.GOOGLE_MAP_API_KEY}>
           <GoogleMap
             mapContainerStyle={mapStyle}
-            center={TEMP_CENTER}
+            center={DEPAUW_CENTER}
             zoom={16}
             options={option}
           >

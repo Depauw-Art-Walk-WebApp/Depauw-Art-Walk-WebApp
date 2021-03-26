@@ -22,19 +22,18 @@ class ArtInfoModal extends React.Component {
           >
             <Modal.Header closeButton>
               <Modal.Title>
-                {this.props.selectedArt.properties.NAME}
+                <Container>
+                  <Row>
+                    <Col>{this.props.selectedArt.properties.NAME}</Col>
+                  </Row>
+                  <Row>
+                    <Col>{this.props.selectedArt.properties.AUTHOR}</Col>
+                  </Row>
+                </Container>
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <Container>
-                <Row>
-                  <Col>
-                    <Image
-                      src={this.props.selectedArt.properties.PICTURE}
-                      fluid
-                    />
-                  </Col>
-                </Row>
                 <Row>
                   <Col>
                     <p style={{ whiteSpace: 'pre-wrap' }}>
