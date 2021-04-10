@@ -5,43 +5,405 @@
       "type": "Feature",
       "properties": {
         "ART_ID": 0,
-        "NAME": "The Starry Night",
-        "NOTES": "Outdoor",
-        "DESCRIPTION": "The Starry Night is an oil on canvas painting by Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.[1][2][3] It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Widely regarded as Van Gogh's magnum opus,[4][5] The Starry Night is one of the most recognized paintings in Western art.[6][7]",
-        "PICTURE":  "/image/art0.jpg"
+        "TITLE": "Tao Te Ching Ch. 15 for Mezzo-Soprano",
+        "DESCRIPTION": "",
+        "AUTHOR": "Genevieve Miedema"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [39.639032, -86.864559]
+        "coordinates": [39.640195,-86.861623]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "ART_ID": 1,
-        "NAME": "The Basket of Apples",
-        "NOTES": "Outdoor",
-        "DESCRIPTION": "The Basket of Apples (French: Le panier de pommes) is a still life oil painting by French artist Paul Cézanne, which he created c. 1893. The painting is particularly remarkable for its creative composition, which rejected realistic representation in favour of distorting objects to create multiple perspectives. This approach eventually influenced other art movements, including Fauvism and Cubism. It belongs to the Helen Birch Bartlett Memorial Collection of the Art Institute of Chicago.",
-        "PICTURE": "/image/art1.jpg"
+        "TITLE": "Solivigant (Wandering Traveler)",
+        "DESCRIPTION": "Solivagant, meaning wandering traveler is a piece about the experience of exploring a cave. This piece documents the subsequent experiences and feelings an individual has while entering a cave. The first theme can be heard as you enter the mouth of the cave—hesitant, dark and intriguing. As you go farther and deeper down in the cave, the music shifts into darker and ominous chords. In the mid-section, it shifts into a happier tune, as beams of light drift from cracks in the tall cave, but that section abruptly ends as you encounter the deeper parts of the cave, and in one moment one can hear falling rocks down passages. The piece then falls into deep echoing dissonant clusters of notes, and small, quiet echoes of the cave that are unidentifiable. Soon, the explorer finds their way out of the cave, as the piece shifts back through it’s previous themes until reaching the exit, back into the light. Still mysterious, the echo of the cave can still be heard, fading away.",
+        "AUTHOR": "Cal Plett"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [39.639057, -86.863143]
+        "coordinates": [39.638114,-86.861931]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "ART_ID": 2,
-        "NAME": "The Card Players",
-        "NOTES": "Outdoor",
-        "DESCRIPTION": "The Card Players is a series of oil paintings by the French Post-Impressionist artist Paul Cézanne. Painted during Cézanne's final period in the early 1890s, there are five paintings in the series. The versions vary in size, the number of players, and the setting in which the game takes place. Cézanne also completed numerous drawings and studies in preparation for The Card Players series.\n\nOne version of The Card Players was sold in 2011 to the Royal Family of Qatar for a price estimated at $250 million ($284.1 million today) later thought to be sold to Blake Davis son of billionaire Mike Davis for $300 million signifying a new mark for highest ever price for a painting, not surpassed until November 2017.[1]The series is considered by critics to be a cornerstone of Cézanne's art during the early-to-mid 1890s period, as well as a \"prelude\" to his final years, when he painted some of his most acclaimed work.[2]\n\nEach painting depicts Provençal peasants immersed in their pipes and playing cards. The subjects, all male, are displayed as studious within their card playing, eyes cast downward, intent on the game at hand. Cézanne adapted a motif from 17th-century Dutch and French genre painting which often depicted card games with rowdy, drunken gamblers in taverns, replacing them instead with stone-faced tradesmen in a more simplified setting.[2][3] Whereas previous paintings of the genre had illustrated heightened moments of drama,[4] Cézanne's portraits have been noted for their lack of drama, narrative, and conventional characterization.[5] Other than an unused wine bottle in the two-player versions, there is an absence of drink and money, which were prominent fixtures of the 17th-century genre. A painting by one of the Le Nain brothers, hung in an Aix-en-Provence museum near the artist's home, depicts card players and is widely cited as an inspiration for the works by Cézanne.[6][7]\n\nThe models for the paintings were local farmhands, some of whom worked on the Cézanne family estate, the Jas de Bouffan.[6] Each scene is depicted as one of quiet, still concentration; the men look down at their cards rather than at each other, with the cards being perhaps their sole means of communication outside of work.[8] One critic described the scenes as \"human still life\",[2] while another speculated that the men's intense focus on their game mirrors that of the painter's absorption in his art.[9]",
-        "PICTURE":  "/image/art2.jpeg"
+        "TITLE": "8,236 X’s",
+        "DESCRIPTION": "Medieval Medicine Man Textile Art",
+        "AUTHOR": "Kate Grimm"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [39.639621, -86.865429]
+        "coordinates": [39.638553,-86.862842]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 3,
+        "TITLE": "Paces",
+        "DESCRIPTION": "Paces was inspired by my thought process in the shower, where my brain is left to its own devices and tends to wander, from trying to organize my thoughts to just singing. The speaker is left only with their stressed out thoughts and a feeling of dread looming overhead in the form of a laundry list of tasks to finish. The title is derived from the nervous energy of the speaker’s thoughts combined with the signature foot tapping and use of the jazz standard “Footprints”, which both center around the idea of one’s feet.",
+        "AUTHOR": "Justin Brown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.640864,-86.86259]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 4,
+        "TITLE": " ",
+        "DESCRIPTION": " ",
+        "AUTHOR": "William Pearson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.636869,-86.861548]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 5,
+        "TITLE": " ",
+        "DESCRIPTION": " ",
+        "AUTHOR": "Sam Kpedi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639472,-86.861627]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 6,
+        "TITLE": "Handel’s Hornpipe",
+        "DESCRIPTION": "We decided to play the Hornpipe movement from Handel’s Water Music Suite because of its upbeat and regal feeling. With the melodic singing of the violin and the deep timbre of the cello creating simple, yet beautiful harmony, the Hornpipe is a song that represents celebration and spring. During times of the unknown, Handel’s Hornpipe can bring light to darkness, creating a light at the end of the tunnel.",
+        "AUTHOR": "Anna Tessman and Payton Sharp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639236,-86.864698]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 7,
+        "TITLE": "Dilemma",
+        "DESCRIPTION": "This magazine is the bulk of a Honor Scholar Senior Thesis that raises issues and encourages the conversation about sexual violence. April is Sexual Assault Awareness month. Using a creative format of a magazine that includes poems, paintings, and more this project aims to discuss sexual violence through personal stories and what it means to recover and find closure.",
+        "AUTHOR": "Emma Rees"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.638616,-86.862036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 8,
+        "TITLE": "Forest Landscape",
+        "DESCRIPTION": "Forest Landscape is one work in a series of landscapes in which I focus on world-building, spirituality, and creation. This work explores an emotional and spiritual attachment to my surroundings and how that connection to the land can be reflected through color and brushwork. Landscapes increase my sensitivity to the earth and bring a greater understanding of my impact on the world around me.",
+        "AUTHOR": "Hannah Buchanan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.638861,-86.864667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 9,
+        "TITLE": "Hydro-Electric",
+        "DESCRIPTION": "This piece was inspired by a great friend, Elena Castro, a current junior at Yale University, who allowed me to create her words into music. Her poem, Hydro-Electric, describes her childhood memories and home in Guatemala with a nostalgic touch. The poem is a strong testament of the complexity of cultures and shows how we often take our memories for granted. The piece gives a storyteller effect to her words and has a running motif of water.",
+        "AUTHOR": "Io Hernandez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.637942,-86.862916]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 10,
+        "TITLE": " ",
+        "DESCRIPTION": " ",
+        "AUTHOR": "Conner Nicoson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.64174,-86.863613]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 11,
+        "TITLE": "After Long Drought",
+        "DESCRIPTION": "Abby Foehrkolb performs Elainie Lillios' electroacoustic work After Long Drought. This vibraphone solo is based on Wally Swist's poem by the same name.",
+        "AUTHOR": "Abby Foehrkolb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.637639, -86.860368]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 12,
+        "TITLE": "Invocation",
+        "DESCRIPTION": " ",
+        "AUTHOR": "Justin Brown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.638811,	-86.865822]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 13,
+        "TITLE": "Line Art",
+        "DESCRIPTION": "Various works of Line Art by Kirsten Nordland",
+        "AUTHOR": "Kirsten Nordland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.638881,	-86.859376]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 14,
+        "TITLE": "Hide Away",
+        "DESCRIPTION": "\"Hide Away\" is a comprovisation (partly composed, partly improvised) by Teresa Shunk that reflects on the isolation brought into the world by the COVID-19 pandemic.",
+        "AUTHOR": "Teresa Shunk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.641954,	-86.859515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 15,
+        "TITLE": "The Witch of the Woods",
+        "DESCRIPTION": "The Witch of the Woods is a photo series following a witch, modeled by Juliette Flowers, indulging in the magic of nature. The photos are taken with a Canon EOS 800d but through practical effects as well as editing capture the dreamscape aesthetic of film photography.",
+        "AUTHOR": "Victoria de Dios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.639244	,-86.864173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 16,
+        "TITLE": "Self-Reflection",
+        "DESCRIPTION": "As an artist and trombonist, I often incorporate musical elements into my works. With such paintings, I seek to acknowledge the power of the arts by making connections between art and music as forms of expression and introspective tools. In Self-Reflection, I hone in on details such as reflections in brass and the concentrated expression of a musician. However, reflection goes beyond the mirrored image: it also appears in another way, as my works “reflect” various moods, internal conflicts, and immersion. This addresses the conflict within myself between attempting to achieve unattainable perfection in an art form and learning to be content with the outcome, no matter how it turns out.",
+        "AUTHOR": "Holly Buchanan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.637695, -86.861022]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 17,
+        "TITLE": " ",
+        "DESCRIPTION": " ",
+        "AUTHOR": "Frances Wycoff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.640628, -86.859922]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 18,
+        "TITLE": " ",
+        "DESCRIPTION": " ",
+        "AUTHOR": "Ben Hogan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.641192, -86.862174]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 19,
+        "TITLE": "Thank You, Thank You, Thank You: The End of the Crop Cycle",
+        "DESCRIPTION": "\"Thank You, Thank You, Thank You: The End of the Crop Cycle\" is constructed out of Brundige's recyclables from the Campus C-Store. It includes 292 plastic bags, along with the following: water bottles, Pure Leaf tea bottles, Schweppes ginger ale bottles, Naked smoothie bottles, Mountain Dew Kickstart cans, Starbucks cold brew glasses, and grapefruit Bubly soda cans. Bottles and cans are contained within the bags to represent seedlings in the ground. The bags are placed in rows to mimic the farm's crop rows, calling attention to packaging's role in the food production cycle.",
+        "AUTHOR": "Ian Brundige"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.63805, -86.877022]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 20,
+        "TITLE": "Mirrors",
+        "DESCRIPTION": "Videogames have an equally intimate and estranged relationship with touch; physical interaction via screen or controller is the key driver of gameplay, but several forms of distance still separate players from in-game actions. \"Mirrors\" was recorded within a game where the player character uses parkour to traverse the rooftops of a futuristic city, and often involves the character bringing her hands into frame and placing them on walls and other surfaces to provide stability. This video contains a series of vignettes that examine the sensation of virtualized touch within this environment. It was coincidence that I started playing this game and making these recordings during the COVID-19 pandemic, but the more I dug in, the more these oddly vacant, sterile virtual spaces that convey touch through several layers of approximation felt prescient.",
+        "AUTHOR": "Dan Solberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.630765, -86.884529]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 21,
+        "TITLE": " ",
+        "DESCRIPTION": " ",
+        "AUTHOR": "Xingyi Wang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.643082, -86.876818]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 22,
+        "TITLE": "The Working Tiger Quartet",
+        "DESCRIPTION": "The Working Tiger Quartet is a jazz combo style group consisting of Parker Black on Guitar, Luke Blackley on Drums, Levi Stewart on Bari Sax, and Aaron Sandel on Tenor Sax. The group will play an assortment of popular jazz standards with a focus on improvisation and bringing back that classic jam session feel we used to get at the Duck on Thursday nights!",
+        "AUTHOR": "Aaron Sandel & ..."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.640599, -86.860454]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 23,
+        "TITLE": "Various Cartoons",
+        "DESCRIPTION": "",
+        "AUTHOR": "Sarah Hennessey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.640539, -86.863115]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 24,
+        "TITLE": "Event Horizon Written Poem & Audio Music Track",
+        "DESCRIPTION": "I have always had a great fascination for the night sky and all things related to outer space. I stumbled across a video on YouTube that simulates a hypothesized visual of what might happen when traversing an event horizon into a black hole (https://youtu.be/S6qw5_YA8iE). This curiosity inspired me to write both a poem and an ambient track on this topic, underscoring such a mysterious, unattainable and indescribable experience. The music serves as emphasis for the written poem, coming from the perspective of someone floating alone in space towards an event horizon and into the uncharted territory of a black hole.",
+        "AUTHOR": "Amalia Crevani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.641134, -86.863125]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 25,
+        "TITLE": "The Bad Thing",
+        "DESCRIPTION": "\"The Bad Thing\" is about different periods of objectification and sexual assault the speaker has gone through over the course of her life, and the lack of support she's received from those closest to her.",
+        "AUTHOR": "ANONYMOUS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.640796, -86.863581]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 26,
+        "TITLE": "Processing: A Musique Concrete In-Progress",
+        "DESCRIPTION": "This project consists of two parts: (1) a recording of me compiling various sound files into a composition, and (2). the finalized musique concrete composition. My recorded sounds are various clips I have taken on my iphone over the last 3-4 years of myself improvising on piano (as well as a few clips of what I call \"background noise\"). For this event, I did not want to simply create the composition and submit it: I wanted to show the process of creating it. I wanted to challenge myself to compose (or compile) these sounds in one sitting and accept my finalized product as the end result. Thus, the recording of my computer screen is the only time I worked on editing these files in Audacity, and the finalized piece is complete at the end of the recording.",
+        "AUTHOR": "Elena Collins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.641186, -86.863825]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 27,
+        "TITLE": "Heiligenstadt Testament",
+        "DESCRIPTION": "This SATB choral work utilizes the English translated text from the Heiligenstadt Testament, written by Beethoven. This letter that the text comes from was intended to be sent to his brothers, but he never sent it and it was eventually found after his death. Each vocal line represents a different part of Beethoven’s thought process and personality.",
+        "AUTHOR": "Katherine Dobbs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.64036, -86.860765]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 28,
+        "TITLE": "Bassed: For One Bass Saxophone and Two Players",
+        "DESCRIPTION": "This work is an original composition co-written by Aaron Sandel and Levi Stewart. This may be the only work written for two musicians and one saxophone, and provides unique challenges for each performer in every element of the music. Any slight difference in timing or disagreement in style will put the two musicians at odds, and cause the work to fall apart. Joining the two collaborators is Luke Blackley, who will fill in the time and space on drumset with tight accompaniment. This piece doesn't hold back, making use of funky rhythms, growling, and harmonics to make each performance something memorable.",
+        "AUTHOR": "Levi Stewart"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.641677, -86.863929]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 29,
+        "TITLE": " ",
+        "DESCRIPTION": " ",
+        "AUTHOR": "Cheridan Ross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.640099, -86.866293]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ART_ID": 30,
+        "TITLE": "Mural Paintings",
+        "DESCRIPTION": "Amy Welch has installed 5 public murals throughout Greencastle, and 4 are easily accessible to the public. They are: 'Greencastle Blossoms' on the side of the former Eitel's building, now Silver Bells Flower Shop, 'Star Light Barn Quilts' behind Mark Hammer's accounting building, 'Read. Think. Create.' above the circulation desk at the Greencastle Public library, 'God's Door's' on the north lawn of Gobin Church, 'Kindness' at TZ Intermediate School, and 'Butterfly Fields' in the west wing of Gobin Church. All are accessible from DePauw's campus by walking with the exception of 'Kindness' at TZ school.",
+        "AUTHOR": "Amy Welch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.641235, -86.861067]
       }
     }
+    
   ]
 }

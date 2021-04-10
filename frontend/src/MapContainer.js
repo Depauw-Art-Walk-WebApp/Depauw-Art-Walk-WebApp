@@ -11,8 +11,10 @@ const DEPAUW_BOUNDS = {
   east: -86.831743,
 };
 
+const ClickLog = new Array(31).fill(0);
+
 const DEPAUW_CENTER = { lat: 39.63930503475011, lng: -86.86344078645712 };
-const TEMP_CENTER = { lat: 37.653052, lng: 126.776982 };
+// const TEMP_CENTER = { lat: 37.653052, lng: 126.776982 };
 
 const mapStyle = { width: '100vw', height: '100vh' };
 
@@ -64,6 +66,8 @@ class MapContainer extends Component {
     this.setState({
       selectedArt: art,
     });
+    ClickLog[art.properties.ART_ID] += 1;
+    console.log(ClickLog[art.properties.ART_ID]);
   };
 
   setModalShow = (show) => {
@@ -90,7 +94,10 @@ class MapContainer extends Component {
               }}
               icon={{
                 url: '/image/user.png',
-                scaledSize: new window.google.maps.Size(40, 40),
+                scaledSize: {
+                  width: 40,
+                  height: 40,
+                },
               }}
             />
 
@@ -107,7 +114,10 @@ class MapContainer extends Component {
                 }}
                 icon={{
                   url: '/image/marker.png',
-                  scaledSize: new window.google.maps.Size(40, 40),
+                  scaledSize: {
+                    width: 40,
+                    height: 40,
+                  },
                 }}
               />
             ))}
