@@ -93,7 +93,7 @@ class MapContainer extends Component {
                 lng: this.state.userPosition.longitude,
               }}
               icon={{
-                url: '/image/user.png',
+                url: './image/user.png',
                 scaledSize: {
                   width: 40,
                   height: 40,
@@ -113,7 +113,7 @@ class MapContainer extends Component {
                   this.setModalShow(true);
                 }}
                 icon={{
-                  url: '/image/marker.png',
+                  url: './image/marker.png',
                   scaledSize: {
                     width: 40,
                     height: 40,

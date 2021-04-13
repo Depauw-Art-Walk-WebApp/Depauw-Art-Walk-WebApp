@@ -7,8 +7,20 @@ class ArtInfoModal extends React.Component {
   }
 
   render() {
+    let urlInfo = <div></div>;
     let modal = <div></div>;
     if (this.props.selectedArt !== null) {
+      if (this.props.selectedArt.properties.URL !== '') {
+        urlInfo = (
+          <Row>
+            <Col>
+              <a href={this.props.selectedArt.properties.URL} target='_blank'>
+                Artwork Website Link
+              </a>
+            </Col>
+          </Row>
+        );
+      }
       modal = (
         <div>
           <Modal
@@ -44,7 +56,7 @@ class ArtInfoModal extends React.Component {
                         // justifyContent: 'right',
                       }}
                     >
-                      - {this.props.selectedArt.properties.AUTHOR}
+                      by {this.props.selectedArt.properties.AUTHOR}
                     </Col>
                   </Row>
                 </Container>
@@ -59,6 +71,7 @@ class ArtInfoModal extends React.Component {
                     </p>
                   </Col>
                 </Row>
+                {urlInfo}
               </Container>
             </Modal.Body>
           </Modal>
