@@ -14,7 +14,6 @@ const DEPAUW_BOUNDS = {
 const ClickLog = new Array(31).fill(0);
 
 const DEPAUW_CENTER = { lat: 39.63930503475011, lng: -86.86344078645712 };
-// const TEMP_CENTER = { lat: 37.653052, lng: 126.776982 };
 
 const mapStyle = { width: '100vw', height: '100vh' };
 
@@ -27,7 +26,6 @@ const option = {
   mapTypeControl: false,
   scaleControl: true,
   streetViewControl: false,
-
   fullscreenControl: false,
   clickableIcons: false,
 };
@@ -39,7 +37,6 @@ class MapContainer extends Component {
     this.state = {
       selectedArt: null,
       modalShow: false,
-      options: null,
       userPosition: {
         latitude: null,
         longitude: null,

@@ -26,36 +26,21 @@ class ArtInfoModal extends React.Component {
           <Modal
             show={this.props.show}
             onHide={this.props.onHide}
-            // backdrop='static'
             keyboard={false}
             dialogClassName='modal-90w'
             scrollable={true}
             size='lg'
           >
             <Modal.Header closeButton>
-              <Modal.Title
-                style={{
-                  width: '100%',
-                }}
-              >
+              <Modal.Title style={{ width: '100%' }}>
                 <Container>
                   <Row>
-                    <Col
-                      style={{
-                        fontStyle: 'italic',
-                      }}
-                    >
+                    <Col style={{ fontStyle: 'italic' }}>
                       {this.props.selectedArt.properties.TITLE}
                     </Col>
                   </Row>
                   <Row>
-                    <Col
-                      style={{
-                        width: '100%',
-                        textAlign: 'right',
-                        // justifyContent: 'right',
-                      }}
-                    >
+                    <Col style={{ width: '100%', textAlign: 'right' }}>
                       by {this.props.selectedArt.properties.AUTHOR}
                     </Col>
                   </Row>
